@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import home from '@/views/app/home'
+// import home from '@/views/app/home'
 
-// import blog from '@/components/blog'
+import home from '@/components/home'
 // import services from '@/components/services'
 // import contact from '@/components/contact'
 // import details from '@/components/details'

@@ -57,7 +57,7 @@ export default {
   name: 'App',
   data (){
 			return{
-				theme1: 'light'
+				theme1: 'primary'
 			}
 		}
 }
