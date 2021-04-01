@@ -23,7 +23,7 @@
             </MenuGroup>
             <MenuGroup title="KTB">
                 <MenuItem name="3-4">LES</MenuItem>
-                <MenuItem name="3-5">AIM</MenuItem>
+                <MenuItem name="3-5">AIMs</MenuItem>
             </MenuGroup>
         </Submenu>
         <MenuItem name="4">
