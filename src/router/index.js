@@ -2,7 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 // import home from '@/views/app/home'
 
-import home from '@/components/home'
+import home from '@/views/app/homepage'
+import profile from '@/views/app/profile'
 // import services from '@/components/services'
 // import contact from '@/components/contact'
 // import details from '@/components/details'
@@ -20,12 +21,12 @@ export default new Router({
       path: '/home',
       name: 'home',
       component: home
+    },
+    {
+      path: '/profile',
+      name: 'profile',
+      component: profile
     }
-    // {
-    //   path: '/blog',
-    //   name: 'blog',
-    //   component: blog
-    // },
     // {
     //   path: '/services',
     //   name: 'services',
