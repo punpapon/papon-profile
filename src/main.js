@@ -18,3 +18,9 @@ new Vue({
   router,
   components: { App }
 }).$mount('#app')
+
+let servestatic = require('serve-static')
+let path = require('path')
+let port = process.env.PORT || 3000;
+Vue.use(servestatic(path.join(path.resolve(), 'dist')));
+Vue.listen(port, () => {console.log("API server started on "+Vue.get('port'));});
